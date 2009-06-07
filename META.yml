@@ -1,0 +1,21 @@
+---
+name: App-ZofCMS-Plugin-HTMLFactory-PageToBodyId
+version: 0.001
+author:
+  - "Zoffix <'zoffix@cpan.org'>"
+abstract: plugin to automatically create id="" attributes on <body> depending on the current page
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  App::ZofCMS: 0.0111
+build_requires:
+  Test::More: 0
+provides:
+  App::ZofCMS::Plugin::HTMLFactory::PageToBodyId:
+    file: lib/App/ZofCMS/Plugin/HTMLFactory/PageToBodyId.pm
+    version: 0.001
+generated_by: Module::Build version 0.33
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
