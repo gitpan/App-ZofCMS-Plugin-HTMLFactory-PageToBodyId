@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::HTMLFactory::PageToBodyId;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 sub new { bless {}, shift }
 
@@ -43,6 +43,8 @@ sub make_id {
 1;
 
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

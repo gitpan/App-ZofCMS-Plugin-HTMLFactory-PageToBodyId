@@ -1,0 +1,47 @@
+{
+   "abstract" : "plugin to automatically create id=\"\" attributes on <body> depending on the current page",
+   "author" : [
+      "Zoffix <'zoffix@cpan.org'>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-ZofCMS-Plugin-HTMLFactory-PageToBodyId",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "App::ZofCMS" : "0.0111",
+            "perl" : "5.006"
+         }
+      }
+   },
+   "provides" : {
+      "App::ZofCMS::Plugin::HTMLFactory::PageToBodyId" : {
+         "file" : "lib/App/ZofCMS/Plugin/HTMLFactory/PageToBodyId.pm",
+         "version" : "0.0103"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.0103"
+}

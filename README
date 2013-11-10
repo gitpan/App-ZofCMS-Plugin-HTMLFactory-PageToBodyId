@@ -1,9 +1,10 @@
 App-ZofCMS-Plugin-HTMLFactory-PageToBodyId
 
-The module is a small plugin for L<App::ZofCMS>. Its purpose is to automatically generate a
-value for an C<id=""> attribute that is to be put on C<< <body> >> HTML element; this value
-would be used to differentiate different pages on the site and is generated from query C<dir>
-and C<page> parameters.
+The module is a small plugin for L<App::ZofCMS>. Its purpose is to
+automatically generate a value for an C<id=""> attribute that is to be
+put on C<< <body> >> HTML element; this value would be used to
+differentiate different pages on the site and is generated from
+query C<dir> and C<page> parameters.
 
 INSTALLATION
 

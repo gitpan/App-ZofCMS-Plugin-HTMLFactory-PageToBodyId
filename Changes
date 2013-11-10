@@ -1,8 +1,11 @@
 Revision history for App-ZofCMS-Plugin-HTMLFactory-PageToBodyId
 
-0.0102  July 11, 2009
-        Realized that the docs were never written... added that
+0.0103  2013-11-09
+        - Minor fixes to comply with specs and Kwalitee game
 
-0.001   June 7, 2009
-        First version, released on an unsuspecting world.
+0.0102  2009-07-11
+        - Realized that the docs were never written... added that
+
+0.001   2009-06-07
+        - First version, released on an unsuspecting world.
 
